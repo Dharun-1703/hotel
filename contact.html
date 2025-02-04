@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/baguetteBox.min.css" />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Athiti:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Yamifood Restaurant</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container col-xl-9">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="reservation.html"
+                    >Reservation</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="stuff.html">Stuff</a></li>
+                <li>
+                  <a class="dropdown-item" href="gallery.html">Gallery</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="blog.html">blog</a></li>
+                <li>
+                  <a class="dropdown-item" href="blogsingle.html"
+                    >blog Single</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="head">
+      <div class="background-all"></div>
+      <h1>Contact</h1>
+    </div>
+    <div class="container-fluid m-0 p-0">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d634.8157183182084!2d65.25203021606457!3d34.52026929686266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f2e2f58ff62b6fb%3A0xe2ef698a91aee8f1!2z2YXaqdiq2Kgg2YTbjNiz2Ycg2LPZhNi32KfZhiDYtNmH2KfYqCDYp9mE2K_bjNmGINi62YjYsduM!5e0!3m2!1sen!2sin!4v1738612806499!5m2!1sen!2sin"
+        width="100%"
+        height="500"
+        style="border: 0; padding: 0; margin: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <section class="contact">
+      <div class="container">
+        <h1 class="heading">Contact</h1>
+        <p class="description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+        </p>
+        <div class="form">
+          <div class="row justify-content-center">
+            <div class="col-xl-9">
+              <div class="name mb-3">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="form-control name-input"
+                />
+              </div>
+              <div class="email mb-3">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="form-control email-input"
+                />
+              </div>
+              <select class="form-control person-input mb-3">
+                <option value="" disabled selected>
+                  Please Select a Person*
+                </option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+              </select>
+              <div class="message mb-3">
+                <textarea
+                  class="form-control message-input"
+                  rows="5"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <div class="smb">
+                <button class="sm">Send Message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-2">
+              <i class="fa-solid fa-phone-volume"></i>
+              <div class="contents">
+                <h3>phone</h3>
+                <p>+01 123-456-4590</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="contents">
+                <h3>Email</h3>
+                <p>yourmail@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="contents">
+                <h3>Location</h3>
+                <p>800, Lorem Street, US</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="oc">
+      <div class="background">
+        <div class="container">
+          <div class="row text-white">
+            <div class="col-lg-3 col-md-6">
+              <h3>About US</h3>
+              <p>
+                Integer cursus scelerisque ipsum id efficitur. Donec a dui
+                fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac
+                lectus a interdum. Vivamus semper posuere dui, at ornare turpis
+                ultrices sit amet. Nulla cursus lorem ut nisi porta, ac eleifend
+                arcu ultrices.
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h3>Opening hours</h3>
+              <p>
+                Monday: Closed <br />
+
+                Tue-Wed : 9:Am - 10PM <br />
+
+                Thu-Fri : 9:Am - 10PM <br />
+
+                Sat-Sun : 5:PM - 10PM
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h3>Contact information</h3>
+              <p>
+                Ipsum Street, Lorem Tower, MO, Columbia, 508000 <br />
+                <br />
+
+                +01 2000 800 9999 <br />
+                <br />
+
+                info@admin.com
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h3>subscribe</h3>
+              <input type="text" placeholder="Email Address.." />
+              <button type="button">Subscribe</button>
+              <div class="row">
+                <div class="col">
+                  <i class="fa-brands fa-facebook-f"></i
+                  ><i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i
+                  ><i class="fa-brands fa-google-plus-g"></i
+                  ><i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      All Rights Reserved. © 2018 <span> Yamifood Restaurant</span> Design By :
+      <span> html design</span>
+    </footer>
+    <script src="./assets/js/baguetteBox.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const name = document.querySelector(".name-input");
+      const span1 = document.createElement("span");
+      name.addEventListener("focusout", () => {
+        if (name.value == "") {
+          span1.textContent = "Please enter your name";
+          span1.classList.add("error");
+          document.querySelector(".name").appendChild(span1);
+        } else {
+          span1.remove();
+        }
+      });
+      const email = document.querySelector(".email-input");
+      const span2 = document.createElement("span");
+      email.addEventListener("focusout", () => {
+        if (email.value == "") {
+          span2.textContent = "Please enter your email";
+          span2.classList.add("error");
+          document.querySelector(".email").appendChild(span2);
+        } else {
+          span2.remove();
+        }
+      });
+      const message = document.querySelector(".message-input");
+      const span3 = document.createElement("span");
+      message.addEventListener("focusout", () => {
+        if (message.value == "") {
+          span3.textContent = "Please enter your message";
+          span3.classList.add("error");
+          document.querySelector(".message").appendChild(span3);
+        } else {
+          span3.remove();
+        }
+      });
+      const sm = document.querySelector(".sm");
+      const span4 = document.createElement("span");
+      sm.addEventListener("click", () => {
+        if (name.value == "") {
+          span1.textContent = "Please enter your name";
+          span1.classList.add("error");
+          document.querySelector(".name").appendChild(span1);
+        } else {
+          span1.remove();
+        }
+        if (email.value == "") {
+          span2.textContent = "Please enter your email";
+          span2.classList.add("error");
+          document.querySelector(".email").appendChild(span2);
+        } else {
+          span2.remove();
+        }
+        if (message.value == "") {
+          span3.textContent = "Please enter your message";
+          span3.classList.add("error");
+          document.querySelector(".message").appendChild(span3);
+        } else {
+          span3.remove();
+        }
+        if (name.value == "" || email.value == "" || message.value == "") {
+          document.querySelector(".form").classList.add("errors");
+          setTimeout(() => {
+            document.querySelector(".form").classList.remove("errors");
+          }, 1000);
+          span4.textContent = "Did you fill in the form properly?";
+          span4.classList.add("error");
+          document.querySelector(".smb").append(span4);
+        } else {
+          span4.remove();
+        }
+      });
+    </script>
+  </body>
+</html>

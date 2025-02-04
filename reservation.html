@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/baguetteBox.min.css" />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Athiti:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Yamifood Restaurant</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container col-xl-9">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="reservation.html"
+                    >Reservation</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="stuff.html">Stuff</a></li>
+                <li>
+                  <a class="dropdown-item" href="gallery.html">Gallery</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="blog.html">blog</a></li>
+                <li>
+                  <a class="dropdown-item" href="blogsingle.html"
+                    >blog Single</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="head">
+      <div class="background-all"></div>
+      <h1>Reservation</h1>
+    </div>
+    <section class="reservation">
+      <div class="container">
+        <h1 class="heading">Reservation</h1>
+        <p class="description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+        </p>
+        <div class="form">
+          <div class="row ms-auto me-auto justify-content-center">
+            <div class="col-md-6">
+              <div class="datecount">
+                <h5>Book a table</h5>
+                <div class="datepicker-container">
+                  <input type="text" class="date-input form-control" readonly />
+                  <div class="datepicker" hidden>
+                    <div class="datepicker-header">
+                      <button class="prev">
+                        <i class="fa-solid fa-play"></i>
+                      </button>
+                      <div class="md">
+                        <span class="month"></span>
+                        <span class="Year"></span>
+                      </div>
+                      <button class="next">
+                        <i class="fa-solid fa-play"></i>
+                      </button>
+                    </div>
+                    <div class="days">
+                      <span>Sun</span><span>Mon</span><span>Tue</span
+                      ><span>Wed</span><span>Thu</span><span>Fri</span
+                      ><span>Sat</span>
+                    </div>
+                    <div class="dates row"></div>
+                    <div class="datepicker-footer">
+                      <button class="todayb">Today</button>
+                      <button class="clear">Clear</button>
+                      <button class="close">Close</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="time-container">
+                  <div class="row ms-0 me-auto">
+                    <input
+                      type="text"
+                      class="time-input form-control"
+                      readonly
+                    />
+                    <div class="time" hidden></div>
+                  </div>
+                </div>
+                <div class="person-container">
+                  <div class="row ms-0 me-auto">
+                    <input
+                      type="text"
+                      class="person-input form-control"
+                      placeholder="Select person*"
+                      readonly
+                    />
+                    <div class="person" hidden></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h5>Contact Details</h5>
+              <div class="names">
+                <input
+                  type="text"
+                  class="name-input form-control"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="email">
+                <input
+                  type="text"
+                  class="email-input form-control"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="number">
+                <input
+                  type="text"
+                  class="number-input form-control"
+                  placeholder="Your Number"
+                />
+              </div>
+            </div>
+            <button type="button" class="text-capitalize bt">
+              book a table
+            </button>
+            <div class="ec d-flex justify-content-center mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="customer-review">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h1 class="heading">Customer Reviews</h1>
+          <p class="description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </p>
+          <div class="col-md-8">
+            <div
+              id="carouselExampleCaption"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center">
+                    <div class="col-md-8">
+                      <img
+                        src="./assets/images/profile-1.jpg"
+                        alt=""
+                        class="rounded-circle"
+                      />
+                      <div class="caption text-center text-black">
+                        <h1>paul mitchel</h1>
+                        <p>web developer</p>
+
+                        <p class="description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Cumque rerum natus id adipisci pariatur fuga
+                          earum, tempore maiores perspiciatis assumenda ab
+                          perferendis itaque quisquam animi dolore voluptates?
+                          Aut voluptatem temporibus laudantium qui repellendus,
+                          laboriosam adipisci quo cupiditate ea facere? Dolores!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-center">
+                    <div class="col-md-8">
+                      <img
+                        src="./assets/images/profile-3.jpg"
+                        alt=""
+                        class="rounded-circle"
+                      />
+                      <div class="caption text-center text-black">
+                        <h1>Steve Fonsi</h1>
+                        <p>web designer</p>
+
+                        <p class="description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Cumque rerum natus id adipisci pariatur fuga
+                          earum, tempore maiores perspiciatis assumenda ab
+                          perferendis itaque quisquam animi dolore voluptates?
+                          Aut voluptatem temporibus laudantium qui repellendus,
+                          laboriosam adipisci quo cupiditate ea facere? Dolores!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-center">
+                    <div class="col-md-8">
+                      <img
+                        src="./assets/images/profile-7.jpg"
+                        alt=""
+                        class="rounded-circle d-flex"
+                      />
+                      <div class="caption text-center text-black">
+                        <h1>Daniel vebar</h1>
+                        <p>seo analyst</p>
+
+                        <p class="description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Cumque rerum natus id adipisci pariatur fuga
+                          earum, tempore maiores perspiciatis assumenda ab
+                          perferendis itaque quisquam animi dolore voluptates?
+                          Aut voluptatem temporibus laudantium qui repellendus,
+                          laboriosam adipisci quo cupiditate ea facere? Dolores!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaption"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaption"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-2">
+              <i class="fa-solid fa-phone-volume"></i>
+              <div class="contents">
+                <h3>phone</h3>
+                <p>+01 123-456-4590</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="contents">
+                <h3>Email</h3>
+                <p>yourmail@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="contents">
+                <h3>Location</h3>
+                <p>800, Lorem Street, US</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="oc">
+      <div class="background">
+        <div class="container">
+          <div class="row text-white">
+            <div class="col-lg-3 col-md-6">
+              <h3>About US</h3>
+              <p>
+                Integer cursus scelerisque ipsum id efficitur. Donec a dui
+                fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac
+                lectus a interdum. Vivamus semper posuere dui, at ornare turpis
+                ultrices sit amet. Nulla cursus lorem ut nisi porta, ac eleifend
+                arcu ultrices.
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h3>Opening hours</h3>
+              <p>
+                Monday: Closed <br /><br />
+
+                Tue-Wed : 9:Am - 10PM <br /><br />
+
+                Thu-Fri : 9:Am - 10PM <br /><br />
+
+                Sat-Sun : 5:PM - 10PM
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h3>Contact information</h3>
+              <p>
+                Ipsum Street, Lorem Tower, MO, Columbia, 508000 <br />
+                <br />
+
+                +01 2000 800 9999 <br />
+                <br />
+
+                info@admin.com
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h3>subscribe</h3>
+              <input type="text" placeholder="Email Address.." />
+              <button type="button">Subscribe</button>
+              <div class="row">
+                <div class="col">
+                  <i class="fa-brands fa-facebook-f"></i
+                  ><i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i
+                  ><i class="fa-brands fa-google-plus-g"></i
+                  ><i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      All Rights Reserved. © 2018 <span> Yamifood Restaurant</span> Design By :
+      <span> html design</span>
+    </footer>
+    <script src="./assets/js/baguetteBox.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
